@@ -14,3 +14,6 @@ DefaultDependencies=no
 Requires=shutdown.target
 After=shutdown.target
 SuccessAction=exit-force
+
+[Service]
+Slice=-.slice
